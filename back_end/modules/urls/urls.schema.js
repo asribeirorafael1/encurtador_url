@@ -1,4 +1,5 @@
-const shortId = require('shortid')
+const shortId = require('shortid');
+shortId.characters('0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ');
 
 module.exports = {
     url_original: {

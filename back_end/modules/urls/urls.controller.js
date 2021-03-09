@@ -1,7 +1,5 @@
 const APIService = require('../../../server/services/api/api.service');
-const HashService = require('../../../server/services/hash/hash.service');
 const UrlsModel = require('./urls.model');
-const OptionsUpdate = {new: true};
 
 const moment = require('moment');
 moment.locale('pt-BR');
