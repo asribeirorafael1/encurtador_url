@@ -1,4 +1,4 @@
-var  environment = '';
+var  environment = 'production';
 var  Config;
 
 try {
