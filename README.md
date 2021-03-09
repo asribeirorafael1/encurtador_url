@@ -13,6 +13,7 @@ Configuração Schemas e Rotas:
 Configuração de Conexão com Database:
 
 - server/configs/config.js: Setar arquivo de Development ou Production;
+    - (Para rodar local deixar a linha "var  environment = 'production';" como "var  environment = '';" )
 
 - server/configs/config.development.js: Configuração de Database QA/LOCALHOST;
 
